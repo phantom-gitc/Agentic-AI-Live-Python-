@@ -1,0 +1,24 @@
+# Environment variables and secrets (matches any .env file in any subdirectory)
+.env
+
+# Python virtual environment
+venv/
+ENV/
+env/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE configurations (optional but recommended)
+.vscode/
+.idea/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
